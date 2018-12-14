@@ -56,10 +56,12 @@ npm install
 ng serve --open
 ```
 
-In another terminal window, serve the node.js app
-```
-npm install nodemon -g
-nodemon server
+Serve and watch Node.js.
 
-./server/node_modules/.bin/ts-node-dev server/server.ts
+Run commands below, each in a terminal window:
+```
+npm run watch-ts
+```
+```
+npm run watch-node
 ```
