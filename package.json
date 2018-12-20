@@ -9,9 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build-ts": "tsc",
-    "watch-node": "nodemon dist/server.js",
+    "watch-node": "nodemon dist/server",
     "watch-ts": "cd server && tsc -w",
-    "start": "ts-node server/server.ts",
+    "start": "node dist/server",
     "postinstall": "ng build --prod --output-path dist && cd server && tsc"
   },
   "engines": {
